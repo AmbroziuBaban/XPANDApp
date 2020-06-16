@@ -1,0 +1,12 @@
+K:\Workspace\XPANDApp\XPANDApp\Contracts\bin\Debug\netcoreapp3.1\Contracts.deps.json
+K:\Workspace\XPANDApp\XPANDApp\Contracts\bin\Debug\netcoreapp3.1\Contracts.dll
+K:\Workspace\XPANDApp\XPANDApp\Contracts\bin\Debug\netcoreapp3.1\Contracts.pdb
+K:\Workspace\XPANDApp\XPANDApp\Contracts\bin\Debug\netcoreapp3.1\Entities.dll
+K:\Workspace\XPANDApp\XPANDApp\Contracts\bin\Debug\netcoreapp3.1\Entities.pdb
+K:\Workspace\XPANDApp\XPANDApp\Contracts\obj\Debug\netcoreapp3.1\Contracts.csprojAssemblyReference.cache
+K:\Workspace\XPANDApp\XPANDApp\Contracts\obj\Debug\netcoreapp3.1\Contracts.csproj.CoreCompileInputs.cache
+K:\Workspace\XPANDApp\XPANDApp\Contracts\obj\Debug\netcoreapp3.1\Contracts.AssemblyInfoInputs.cache
+K:\Workspace\XPANDApp\XPANDApp\Contracts\obj\Debug\netcoreapp3.1\Contracts.AssemblyInfo.cs
+K:\Workspace\XPANDApp\XPANDApp\Contracts\obj\Debug\netcoreapp3.1\Contracts.csproj.CopyComplete
+K:\Workspace\XPANDApp\XPANDApp\Contracts\obj\Debug\netcoreapp3.1\Contracts.dll
+K:\Workspace\XPANDApp\XPANDApp\Contracts\obj\Debug\netcoreapp3.1\Contracts.pdb
