@@ -1,0 +1,12 @@
+K:\Workspace\XPANDApp\XPANDApp\Entities\bin\Release\netcoreapp3.1\Entities.deps.json
+K:\Workspace\XPANDApp\XPANDApp\Entities\bin\Release\netcoreapp3.1\Entities.runtimeconfig.json
+K:\Workspace\XPANDApp\XPANDApp\Entities\bin\Release\netcoreapp3.1\Entities.runtimeconfig.dev.json
+K:\Workspace\XPANDApp\XPANDApp\Entities\bin\Release\netcoreapp3.1\Entities.dll
+K:\Workspace\XPANDApp\XPANDApp\Entities\bin\Release\netcoreapp3.1\Entities.pdb
+K:\Workspace\XPANDApp\XPANDApp\Entities\obj\Release\netcoreapp3.1\Entities.csprojAssemblyReference.cache
+K:\Workspace\XPANDApp\XPANDApp\Entities\obj\Release\netcoreapp3.1\Entities.csproj.CoreCompileInputs.cache
+K:\Workspace\XPANDApp\XPANDApp\Entities\obj\Release\netcoreapp3.1\Entities.AssemblyInfoInputs.cache
+K:\Workspace\XPANDApp\XPANDApp\Entities\obj\Release\netcoreapp3.1\Entities.AssemblyInfo.cs
+K:\Workspace\XPANDApp\XPANDApp\Entities\obj\Release\netcoreapp3.1\Entities.dll
+K:\Workspace\XPANDApp\XPANDApp\Entities\obj\Release\netcoreapp3.1\Entities.pdb
+K:\Workspace\XPANDApp\XPANDApp\Entities\obj\Release\netcoreapp3.1\Entities.genruntimeconfig.cache
