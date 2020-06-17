@@ -13,7 +13,7 @@ namespace Repository
     {
         public RobotRepository(RepositoryContext repositoryContext) : base(repositoryContext)
         {
-
+           
         }
 
         public IEnumerable<Robot> GetAllRobots()

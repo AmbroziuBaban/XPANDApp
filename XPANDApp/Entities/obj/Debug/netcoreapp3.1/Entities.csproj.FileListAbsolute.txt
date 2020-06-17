@@ -9,4 +9,3 @@ K:\Workspace\XPANDApp\XPANDApp\Entities\obj\Debug\netcoreapp3.1\Entities.dll
 K:\Workspace\XPANDApp\XPANDApp\Entities\obj\Debug\netcoreapp3.1\Entities.pdb
 K:\Workspace\XPANDApp\XPANDApp\Entities\obj\Debug\netcoreapp3.1\Entities.genruntimeconfig.cache
 K:\Workspace\XPANDApp\XPANDApp\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.CoreCompileInputs.cache
-K:\Workspace\XPANDApp\XPANDApp\Entities\obj\Debug\netcoreapp3.1\Entities.csprojAssemblyReference.cache

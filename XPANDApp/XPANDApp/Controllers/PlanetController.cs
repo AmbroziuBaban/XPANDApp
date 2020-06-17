@@ -32,9 +32,9 @@ namespace XPANDApp.Controllers
                 var planets = _repository.Planet.GetAllPlanets();
                 return Ok(planets);
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
-               return StatusCode(500, "Internal server error");
+                return StatusCode(500, "Internal server error");
             }
         }
 
@@ -47,11 +47,11 @@ namespace XPANDApp.Controllers
 
                 if(planet == null)
                 {
-                   return NotFound();
+                    return NotFound();
                 }
 
                 return Ok(planet);
-               
+
             }
             catch(Exception ex)
             {
@@ -80,6 +80,39 @@ namespace XPANDApp.Controllers
                 _repository.Save();
 
                 return CreatedAtRoute("PlanetById", new { id = planetEntity.ID }, planetEntity);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, "Internal server error");
+            }
+        }
+
+        [HttpPut("{id}")]
+        public IActionResult UpdatePlanet(Guid id, [FromBody] Planet planet)
+        {
+            try
+            {
+                if(planet == null)
+                {
+                    return BadRequest("Planet object is null");
+                }
+
+                if (!ModelState.IsValid)
+                {
+                    return BadRequest("Object is not valid");
+                }
+
+                var planetEntity = _repository.Planet.GetPlanetById(id);
+
+                if(planetEntity == null)
+                {
+                    return NotFound();
+                }
+                
+                _repository.Planet.UpdatePlanet(planet);
+                _repository.Save();
+
+                return NoContent();
             }
             catch(Exception ex)
             {

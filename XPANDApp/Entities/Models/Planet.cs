@@ -32,7 +32,7 @@ namespace Entities.Models
         [Column("DescriptionId")]
         [ForeignKey(nameof(Description))]
         [AllowNull]
-        public Guid DescriptionId { get; set; }
+        public Guid? DescriptionId { get; set; }
         public Description Description { get; set; }
     }
 }

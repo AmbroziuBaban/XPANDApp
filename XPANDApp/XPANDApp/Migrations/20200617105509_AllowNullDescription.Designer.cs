@@ -4,14 +4,16 @@ using Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace XPANDApp.Migrations
 {
     [DbContext(typeof(RepositoryContext))]
-    partial class RepositoryContextModelSnapshot : ModelSnapshot
+    [Migration("20200617105509_AllowNullDescription")]
+    partial class AllowNullDescription
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -87,7 +89,7 @@ namespace XPANDApp.Migrations
                         .HasColumnName("PlanetId")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<Guid?>("DescriptionId")
+                    b.Property<Guid>("DescriptionId")
                         .HasColumnName("DescriptionId")
                         .HasColumnType("uniqueidentifier");
 
@@ -132,12 +134,12 @@ namespace XPANDApp.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("aac6fabe-324e-40e6-b8b9-1ddc53e3e01d"),
+                            Id = new Guid("a485cbed-58dd-4c50-b542-13a5c93b8860"),
                             Name = "T0"
                         },
                         new
                         {
-                            Id = new Guid("c00f4a31-1da6-451b-8cc5-c1f8f33a4ae4"),
+                            Id = new Guid("06641d0a-9ad0-4384-8641-f3f2ac6fb65e"),
                             Name = "T1"
                         });
                 });
@@ -170,7 +172,9 @@ namespace XPANDApp.Migrations
                 {
                     b.HasOne("Entities.Models.Description", "Description")
                         .WithMany()
-                        .HasForeignKey("DescriptionId");
+                        .HasForeignKey("DescriptionId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }
